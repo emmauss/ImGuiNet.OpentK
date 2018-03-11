@@ -4,6 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>ImGui.OpenTK</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>An ImGui.Net window helper for OpenTK. Adapted from ImGuiCSSDL2 Helper.</Description>
+    <RepositoryUrl>https://github.com/emmauss/ImGuiNet.OpentK</RepositoryUrl>
+    <Version>0.1.0</Version>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <PackageReleaseNotes>Prerelease version</PackageReleaseNotes>
+    <Copyright>Emmanuel Hansen</Copyright>
+    <Authors>Emmanuel Hansen</Authors>
+    <Company></Company>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
