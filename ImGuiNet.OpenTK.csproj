@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>ImGui.OpenTK</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -18,9 +19,4 @@
     <PackageReference Include="ImGui.NET" Version="0.4.3" />
     <PackageReference Include="OpenTK.NETCore" Version="1.1.2749.6433" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ImGuiWidget\ImGuiWidget.csproj" />
-  </ItemGroup>
-
 </Project>
